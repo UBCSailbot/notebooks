@@ -23,7 +23,7 @@ jobs:
     # for documentation on the inputs and secrets below
     with:
       repository: ${{ github.event.repository.name }}
-      ros-ci: true
+      ros-ci: false
       clang-tidy: false
       rebuild-docs: true
     # If rebuild-docs is true:
